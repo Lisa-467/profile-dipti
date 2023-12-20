@@ -18,6 +18,7 @@
       background-color: bisque;
       color: rgb(235, 24, 164);
       font-family: "Concert One", sans-serif;
+      text-shadow: 2px 4px 2px rgb(218, 116, 214);
     }
 
     #GIT {
@@ -29,12 +30,12 @@
       color: rgb(235, 24, 164);
     }
 
-    /* ul li {
-      list-style-type: circle;
-    } */
+    ul li {
+      list-style-type: none;
+    }
 
-    ul li::before {
-      content: 👉;
+    #list li::before {
+      content: "👉";
     }
   </style>
 </head>
@@ -48,7 +49,7 @@
   </div>
 
   <h1 class="cb1">Professional summary</h1>
-  <ul>
+  <ul id="list">
     <li>
       Having 5 years of experience in developing single page application using
       <span>Angular8</span>
