@@ -1,0 +1,26 @@
+h2,
+label,
+div {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+div {
+  background-color: rgb(164, 228, 228);
+  color: rgb(129, 30, 222);
+  height: 25vh;
+  width: 20vw;
+  padding: 20px;
+  border-radius: 10px;
+}
+button {
+  margin-left: 300px;
+  background-color: rgb(121, 214, 214);
+}
+body {
+  background-color: antiquewhite;
+}
+label {
+  margin-bottom: 10px;
+}
+sup {
+  color: red;
+}
