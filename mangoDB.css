@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,400;1,500&family=Kalnia&family=Mina:wght@700&family=Noto+Sans&family=Poppins:wght@500&family=Roboto:wght@900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap");
+
+img {
+  height: 15vh;
+  width: 15vw;
+  text-align: center;
+}
+td,
+tr,
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+}
+td {
+  text-align: center;
+  padding: 10px;
+}
+.mango {
+  color: white;
+  background-color: rgb(12, 200, 12);
+  font-family: "Nunito", sans-serif;
+  font-size: larger;
+}
+.Mysql {
+  color: white;
+  background-color: orange;
+  font-family: "Nunito", sans-serif;
+  font-size: larger;
+}
